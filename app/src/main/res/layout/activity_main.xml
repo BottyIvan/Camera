@@ -8,12 +8,10 @@
         android:layout_height="fill_parent"
         />
 
-    <ImageButton
-        android:layout_width="wrap_content"
+    <include
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/mtake"
+        layout="@layout/button_cam"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:src="@android:drawable/ic_menu_camera" />
-
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
